@@ -149,7 +149,7 @@ local HawkLib = {
 
 	Themes = {
 		Dark = {
-Main = Color3.fromRGB(19, 19, 19),
+Main = Color3.fromRGB(21, 21, 21),
 Shadow = Color3.fromRGB(0, 0, 0),
 TitleBar = Color3.fromRGB(31, 31, 31),
 TabBefore = Color3.fromRGB(33, 33, 33),
@@ -439,7 +439,7 @@ function HawkLib:Window(Win)
 		Main.Name = "Main"
 		Main.Parent = Hawk
 		Main.BackgroundColor3 = HawkLib.Themes[Theme].Main
-		Main.BackgroundTransparency = 0.3
+		Main.BackgroundTransparency = 0.28
 		Main.BorderColor3 = Color3.fromRGB(211, 211, 211)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
