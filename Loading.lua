@@ -24,6 +24,7 @@ local Hawk = Instance.new("ScreenGui")
 
 -- Version: 3.2
 
+function Togglezxc()
 -- Instances:
 local Togglez = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -65,6 +66,9 @@ if v.Name == "Main" then
 	end 
     end
 end)
+end
+
+Togglezxc()
 
 local function MakeDraggable(topbarobject, object)
 	local Dragging = nil
@@ -2776,7 +2780,7 @@ function HawkLib:Window(Win)
 						Arrow.BackgroundTransparency = 1.000
 						Arrow.Position = UDim2.new(0.913561523, 0, 0.211111104, 0)
 						Arrow.Size = UDim2.new(0, 26, 0, 27)
-						Arrow.Image = "rbxassetid://134204200422920"
+						Arrow.Image = "rbxassetid://107653578747223"
 						Arrow.ImageColor3 = HawkLib.Themes[Theme].ItemTitleColors
 
 						DropdownFrame.Name = "DropdownFrame"
