@@ -439,7 +439,7 @@ function HawkLib:Window(Win)
 		Main.Name = "Main"
 		Main.Parent = Hawk
 		Main.BackgroundColor3 = HawkLib.Themes[Theme].Main
-		Main.BackgroundTransparency = 0.6
+		Main.BackgroundTransparency = 0.25
 		Main.BorderColor3 = Color3.fromRGB(211, 211, 211)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
