@@ -439,7 +439,7 @@ function HawkLib:Window(Win)
 		Main.Name = "Main"
 		Main.Parent = Hawk
 		Main.BackgroundColor3 = HawkLib.Themes[Theme].Main
-		Main.BackgroundTransparency = 0.1
+		Main.BackgroundTransparency = 0.06
 		Main.BorderColor3 = Color3.fromRGB(36, 36, 36)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
@@ -5618,7 +5618,7 @@ function HawkLib:Window(Win)
 				DropdownFrame.Name = "DropdownFrame"
 				DropdownFrame.Parent = Container
 				DropdownFrame.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-				DropdownFrame.BackgroundTransparency = 0.7
+				DropdownFrame.BackgroundTransparency = 0.9
 				DropdownFrame.BorderSizePixel = 0
 				DropdownFrame.Position = UDim2.new(0.334374994, 0, 0.604166687, 0)
 				DropdownFrame.Size = UDim2.new(0, 391, 0, 0)
@@ -5779,7 +5779,7 @@ function HawkLib:Window(Win)
 					Item.Name = "Item"
 					Item.Parent = DropdownHolder
 					Item.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-					Item.BackgroundTransparency = 0.8
+					Item.BackgroundTransparency = 0.9
 					Item.Position = UDim2.new(0, 0, 0.0808080807, 0)
 					Item.Size = UDim2.new(0, 371, 0, 24)
 					Item.AutoButtonColor = false
@@ -5911,7 +5911,7 @@ function HawkLib:Window(Win)
 						Item.Name = "Item"
 						Item.Parent = DropdownHolder
 						Item.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-						Item.BackgroundTransparency = 0.8
+						Item.BackgroundTransparency = 0.9
 						Item.Position = UDim2.new(0, 0, 0.0808080807, 0)
 						Item.Size = UDim2.new(0, 371, 0, 24)
 						Item.AutoButtonColor = false
@@ -6087,7 +6087,7 @@ function HawkLib:Window(Win)
 					Item.Name = "Item"
 					Item.Parent = DropdownHolder
 					Item.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-					Item.BackgroundTransparency = 0.8
+					Item.BackgroundTransparency = 0.9
 					Item.Position = UDim2.new(0, 0, 0.0808080807, 0)
 					Item.Size = UDim2.new(0, 371, 0, 24)
 					Item.AutoButtonColor = false
