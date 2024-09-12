@@ -25,36 +25,36 @@ local Hawk = Instance.new("ScreenGui")
 -- Version: 3.2
 
 -- Instances:
-local ImageButton = Instance.new("ImageButton")
+local Togglez = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
 local UIStroke = Instance.new("UIStroke")
 
 -- Properties:
 
-ImageButton.Parent = Hawk
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.Size = UDim2.new(0.07, 0, 0.15, 0)
-ImageButton.Position = UDim2.new(0.95, -95, 0, 0)
-ImageButton.Image = "rbxassetid://134204200422920"
-ImageButton.ImageTransparency = 0.000
-ImageButton.Active = true
-ImageButton.Draggable = true
+Togglez.Parent = Hawk
+Togglez.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Togglez.BackgroundTransparency = 1.000
+Togglez.Size = UDim2.new(0.07, 0, 0.15, 0)
+Togglez.Position = UDim2.new(0.95, -95, 0, 0)
+Togglez.Image = "rbxassetid://134204200422920"
+Togglez.ImageTransparency = 0.000
+Togglez.Active = true
+Togglez.Draggable = true
 
 -- Adding UICorner (สำหรับมุมโค้ง)
-UICorner.Parent = ImageButton
+UICorner.Parent = Togglez
 UICorner.CornerRadius = UDim.new(0.1, 0)
 
 -- Adding UIStroke (สำหรับขอบ)
-UIStroke.Parent = ImageButton
+UIStroke.Parent = Togglez
 UIStroke.Color = Color3.fromRGB(56, 182, 255)
 UIStroke.Thickness = 1
 
 -- การตั้งค่า ZIndex ของ ImageButton
-ImageButton.ZIndex = 10  -- ตั้งค่า ZIndex ของปุ่มให้เป็น 1
+Togglez.ZIndex = 10  -- ตั้งค่า ZIndex ของปุ่มให้เป็น 1
 
 -- การจับคลิกปุ่ม
-ImageButton.MouseButton1Down:Connect(function()
+Togglez.MouseButton1Down:Connect(function()
 for i, v in pairs(game.CoreGui.Hawk:GetChildren()) do
 if v.Name == "Main" then
 	if v.Visible == true then
