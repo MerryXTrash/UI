@@ -760,7 +760,6 @@ function HawkLib:Window(Win)
 
 			TabBtnFrame.Name = "TabBtnFrame"
 			TabBtnFrame.Parent = Tabs
-			TabBynFrame.BackgroundTransparency = 0.5
 			TabBtnFrame.BackgroundColor3 = HawkLib.Themes[Theme].TabBefore
 			TabBtnFrame.BorderColor3 = HawkLib.Themes[Theme].TabBefore
 			TabBtnFrame.BorderSizePixel = 0
