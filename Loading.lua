@@ -384,18 +384,18 @@ function HawkLib:Window(Win)
 		local Shadow = Instance.new("ImageLabel")
 
 		Hawk.Name = "Hawk"		
-		Hawk.ZIndexBehavior = Enum.ZIndexBehavior.Global
+		Hawk.ZIndexBehavior = Enum.ZIndexBehavior = 0
 		Hawk.ResetOnSpawn = false
 		Hawk.Parent = game.CoreGui
 
 		Main.Name = "Main"
 		Main.Parent = Hawk
 		Main.BackgroundColor3 = HawkLib.Themes[Theme].Main
-		Main.BackgroundTransparency = 0.020
+		Main.BackgroundTransparency = 0.3
 		Main.BorderColor3 = Color3.fromRGB(36, 36, 36)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
-		Main.Size = UDim2.new(0, 400, 0, 300)
+		Main.Size = UDim2.new(0, 320, 0, 270)
 
 		if OnPc or OnTabletLaptop then
 			Main.Position = HawkLib.Elements.WideMenu.MainPosition
@@ -413,7 +413,7 @@ function HawkLib:Window(Win)
 		TitleBar.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderSizePixel = 0
-		TitleBar.Size = UDim2.new(0, 592, 0, 33)
+		TitleBar.Size = UDim2.new(0, 320, 0, 33)
 
 		if OnPc or OnTabletLaptop then
 			TitleBar.Size = HawkLib.Elements.WideMenu.TitleBarSize
@@ -427,7 +427,7 @@ function HawkLib:Window(Win)
 		BarFixer.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		BarFixer.BorderSizePixel = 0
 		BarFixer.Position = UDim2.new(0, 0, 0.818181813, 0)
-		BarFixer.Size = UDim2.new(0, 592, 0, 15)
+		BarFixer.Size = UDim2.new(0, 320, 0, 15)
 		MakeDraggable(BarFixer, Main)
 		Line.Name = "Line"
 		Line.Parent = BarFixer
@@ -435,7 +435,7 @@ function HawkLib:Window(Win)
 		Line.BorderColor3 = HawkLib.Themes[Theme].TitleLineColor
 		Line.BorderSizePixel = 0
 		Line.Position = UDim2.new(-0.000580968102, 0, 1.0672729, 0)
-		Line.Size = UDim2.new(0, 593, 0, -2)
+		Line.Size = UDim2.new(0, 320, 0, -2)
 		MakeDraggable(Line, Main)
 		Close.Name = "Close"
 		Close.Parent = TitleBar
@@ -524,7 +524,7 @@ function HawkLib:Window(Win)
 		Pages.BorderColor3 = Color3.fromRGB(36, 36, 36)
 		Pages.BorderSizePixel = 0
 		Pages.Position = UDim2.new(0.317567676, 0, 0.134146243, 0)
-		Pages.Size = UDim2.new(0, 405, 0, 284)
+		Pages.Size = UDim2.new(0, 320, 0, 284)
 
 		if OnPc or OnTabletLaptop then
 			Pages.Position = HawkLib.Elements.WideMenu.PagesPosition
