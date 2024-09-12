@@ -1603,6 +1603,7 @@ function HawkLib:Window(Win)
 						Line.BorderSizePixel = 0
 						Line.Position = UDim2.new(0.377149731, 0, 1.22200394, 0)
 						Line.Size = UDim2.new(0, 391, 0, 8)
+						Line.BackgroundTransparency = 0.4
 
 						LineCorner.Parent = Line
 
