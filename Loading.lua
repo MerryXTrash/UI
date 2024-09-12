@@ -161,7 +161,7 @@ PageTitleColor = Color3.fromRGB(182, 182, 182),
 Selection = Color3.fromRGB(56, 182, 255), -- เปลี่ยนจากสีแดงเป็นสีฟ้า
 CloseMinimize = Color3.fromRGB(255, 255, 255),
 ItemColors = Color3.fromRGB(35, 35, 35),
-ItemTitleColors = Color3.fromRGB(255, 255, 255),
+ItemTitleColors = Color3.fromRGB(182, 182, 182),
 ItemTextColors = Color3.fromRGB(255, 255, 255),
 ItemTextBoxKeyBindColors = Color3.fromRGB(27, 27, 27),
 ItemTextBoxKeyBindStrokeColors = Color3.fromRGB(60, 60, 60),
@@ -439,7 +439,7 @@ function HawkLib:Window(Win)
 		Main.Name = "Main"
 		Main.Parent = Hawk
 		Main.BackgroundColor3 = HawkLib.Themes[Theme].Main
-		Main.BackgroundTransparency = 0.9
+		Main.BackgroundTransparency = 0.6
 		Main.BorderColor3 = Color3.fromRGB(211, 211, 211)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
