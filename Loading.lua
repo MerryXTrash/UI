@@ -2745,6 +2745,7 @@ function HawkLib:Window(Win)
 						Dropdown.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
 						Dropdown.Position = UDim2.new(-0.747557044, 0, 0.729113936, 0)
 						Dropdown.Size = UDim2.new(0, 391, 0, 44)
+						Dropdown.BackgroundTransparency = 0.07
 						Dropdown.AutoButtonColor = false
 						Dropdown.Font = Enum.Font.GothamBold
 						Dropdown.Text = ""
@@ -2779,7 +2780,7 @@ function HawkLib:Window(Win)
 						DropdownFrame.Name = "DropdownFrame"
 						DropdownFrame.Parent = Container
 						DropdownFrame.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-						DropdownFrame.BackgroundTransparency = 0.2
+						DropdownFrame.BackgroundTransparency = 0.03
 						DropdownFrame.BorderSizePixel = 0
 						DropdownFrame.Position = UDim2.new(0.334374994, 0, 0.604166687, 0)
 						DropdownFrame.Size = UDim2.new(0, 391, 0, 0)
