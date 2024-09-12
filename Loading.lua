@@ -5608,7 +5608,7 @@ function HawkLib:Window(Win)
 				Arrow.BackgroundTransparency = 1.000
 				Arrow.Position = UDim2.new(0.913561523, 0, 0.211111104, 0)
 				Arrow.Size = UDim2.new(0, 26, 0, 27)
-				Arrow.Image = "rbxassetid://120100637575914"
+				Arrow.Image = "rbxassetid://107653578747223"
 				Arrow.ImageColor3 = HawkLib.Themes[Theme].ItemTitleColors
 
 				DropdownFrame.Name = "DropdownFrame"
@@ -5775,7 +5775,7 @@ function HawkLib:Window(Win)
 					Item.Name = "Item"
 					Item.Parent = DropdownHolder
 					Item.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-					Item.BackgroundTransparency = 0.2
+					Item.BackgroundTransparency = 0.8
 					Item.Position = UDim2.new(0, 0, 0.0808080807, 0)
 					Item.Size = UDim2.new(0, 371, 0, 24)
 					Item.AutoButtonColor = false
@@ -5907,7 +5907,7 @@ function HawkLib:Window(Win)
 						Item.Name = "Item"
 						Item.Parent = DropdownHolder
 						Item.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-						Item.BackgroundTransparency = 0.7
+						Item.BackgroundTransparency = 0.8
 						Item.Position = UDim2.new(0, 0, 0.0808080807, 0)
 						Item.Size = UDim2.new(0, 371, 0, 24)
 						Item.AutoButtonColor = false
@@ -6083,7 +6083,7 @@ function HawkLib:Window(Win)
 					Item.Name = "Item"
 					Item.Parent = DropdownHolder
 					Item.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-					Item.BackgroundTransparency = 0.6
+					Item.BackgroundTransparency = 0.8
 					Item.Position = UDim2.new(0, 0, 0.0808080807, 0)
 					Item.Size = UDim2.new(0, 371, 0, 24)
 					Item.AutoButtonColor = false
