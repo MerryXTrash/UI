@@ -765,6 +765,7 @@ function HawkLib:Window(Win)
 			TabBtnFrame.BorderSizePixel = 0
 			TabBtnFrame.Position = UDim2.new(0.0185185187, 0, 1.11786001e-07, 0)
 			TabBtnFrame.Size = UDim2.new(0, 156, 0, 36)
+			TabBtnFrame.BackgroundTransparency = 0.5
 
 			UICorner_3.Parent = TabBtnFrame
 
