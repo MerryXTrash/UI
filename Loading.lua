@@ -2269,6 +2269,7 @@ function HawkLib:Window(Win)
 						ToggleFrame.Name = "ToggleFrame"
 						ToggleFrame.Parent = Container
 						ToggleFrame.Active = true
+						ToggleFrame.BackgroundTransparency = 0.07
 						ToggleFrame.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
 						ToggleFrame.BorderColor3 = HawkLib.Themes[Theme].ItemColors
 						ToggleFrame.Position = UDim2.new(0.0196850393, 0, 0.637992859, 0)
