@@ -384,7 +384,7 @@ function HawkLib:Window(Win)
 		local Shadow = Instance.new("ImageLabel")
 
 		Hawk.Name = "Hawk"		
-		Hawk.ZIndexBehavior = Enum.ZIndexBehavior = 0
+		Hawk.ZIndexBehavior = Enum.ZIndexBehavior = Global
 		Hawk.ResetOnSpawn = false
 		Hawk.Parent = game.CoreGui
 
