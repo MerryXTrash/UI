@@ -83,7 +83,7 @@ local HawkLib = {
 	Elements = {
 		WideMenu = {
 			MainPosition = UDim2.new(0.517696261, -296, 0.401494592, -164),
-			MainSize = UDim2.new(0, 360, 0, 425),
+			MainSize = UDim2.new(0, 300, 0, 400),
 			TitleBarSize = UDim2.new(0, 592, 0, 44),
 			SectionSize = UDim2.new(0, 391, 0, 36),
 			ClosePosition = UDim2.new(0.944256783, 0, 0.35, 0),
@@ -101,49 +101,37 @@ local HawkLib = {
 
 	Themes = {
 		Dark = {
--- Define colors with transparency
-local MainColor = Color3.fromRGB(25, 25, 25) -- Background color
-local MainTransparency = 0.6
-
-local ShadowColor = Color3.fromRGB(0, 0, 0) -- Shadow color
-local ShadowTransparency = 0.6
-
-local TitleBarColor = Color3.fromRGB(31, 31, 31) -- Title bar color
-local TitleBarTransparency = 0.6
-
-local TabBeforeColor = Color3.fromRGB(33, 33, 33) -- Tab before color
-local TabBeforeTransparency = 0.6
-
-local TabAfterColor = Color3.fromRGB(41, 41, 41) -- Tab after color
-local TabAfterTransparency = 0.6
-
--- Non-background colors (no transparency)
-local TitleTextColor = Color3.fromRGB(255, 255, 255)
-local TabTextColor = Color3.fromRGB(255, 255, 255)
-local TitleLineColor = Color3.fromRGB(44, 44, 44)
-local PageTitleColor = Color3.fromRGB(198, 198, 198)
-local SelectionColor = Color3.fromRGB(56, 182, 255)
-local CloseMinimizeColor = Color3.fromRGB(255, 255, 255)
-local ItemColors = Color3.fromRGB(35, 35, 35)
-local ItemTitleColors = Color3.fromRGB(231, 231, 231)
-local ItemTextColors = Color3.fromRGB(171, 171, 170)
-local ItemTextBoxKeyBindColors = Color3.fromRGB(27, 27, 27)
-local ItemTextBoxKeyBindStrokeColors = Color3.fromRGB(60, 60, 60)
-local ItemTextBoxTextColor = Color3.fromRGB(132, 132, 132)
-local ItemKeyBindTextColor = Color3.fromRGB(199, 199, 199)
-local ToggleTickColor = Color3.fromRGB(255, 255, 255)
-local ButtonClickIconColor = Color3.fromRGB(182, 182, 182)
-local ButtonHoverColor = Color3.fromRGB(42, 42, 42)
-local SliderButtonFrameColor = Color3.fromRGB(35, 45, 55)
-local InSliderFrameColor = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(44, 107, 162)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 62, 93))}
-local NumColor = Color3.fromRGB(124, 155, 182)
-local DropdownColorPickerImageArrowColors = Color3.fromRGB(199, 199, 199)
-local NotificationNotifyColor = Color3.fromRGB(42, 44, 42)
-local NotificationNotifyTitleColor = Color3.fromRGB(231, 231, 231)
-local NotificationNotifyTextColor = Color3.fromRGB(171, 171, 170)
-local IconColor = Color3.fromRGB(255, 255, 255)
-local IconShadowColor = Color3.fromRGB(0, 0, 0)
-local NotifyButtonsColor = Color3.fromRGB(163, 162, 165)
+Main = Color3.fromRGB(25, 25, 25),
+Shadow = Color3.fromRGB(0, 0, 0),
+TitleBar = Color3.fromRGB(31, 31, 31),
+TabBefore = Color3.fromRGB(33, 33, 33),
+TabAfter = Color3.fromRGB(41, 41, 41),
+TitleTextColor = Color3.fromRGB(255, 255, 255),
+TabTextColor = Color3.fromRGB(255, 255, 255),
+TitleLineColor = Color3.fromRGB(56, 182, 255),
+PageTitleColor = Color3.fromRGB(198, 198, 198),
+Selection = Color3.fromRGB(56, 182, 255), -- เปลี่ยนจากสีแดงเป็นสีฟ้า
+CloseMinimize = Color3.fromRGB(255, 255, 255),
+ItemColors = Color3.fromRGB(35, 35, 35),
+ItemTitleColors = Color3.fromRGB(231, 231, 231),
+ItemTextColors = Color3.fromRGB(171, 171, 170),
+ItemTextBoxKeyBindColors = Color3.fromRGB(27, 27, 27),
+ItemTextBoxKeyBindStrokeColors = Color3.fromRGB(60, 60, 60),
+ItemTextBoxTextColor = Color3.fromRGB(132, 132, 132),
+ItemKeyBindTextColor = Color3.fromRGB(199, 199, 199),
+ToggleTickColor = Color3.fromRGB(255, 255, 255),
+ButtonClickIconColor = Color3.fromRGB(182, 182, 182),
+ButtonHover = Color3.fromRGB(42, 42, 42),
+SliderButtonFrameColor = Color3.fromRGB(35, 45, 55),
+InSliderFrame = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(44, 107, 162)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 62, 93))},
+NumColor = Color3.fromRGB(124, 155, 182),
+DropdownColorPickerImageArrowColors = Color3.fromRGB(199, 199, 199),
+NotificationNotifyColor = Color3.fromRGB(42, 44, 42),
+NotificationNotifyTitleColor = Color3.fromRGB(231, 231, 231),
+NotificationNotifyTextColor = Color3.fromRGB(171, 171, 170),
+IconColor = Color3.fromRGB(255, 255, 255),
+IconShadow = Color3.fromRGB(0, 0, 0),
+NotifyButtons = Color3.fromRGB(163, 162, 165)
 		},
 		White = {
 			Main = Color3.fromRGB(225, 225, 225),
