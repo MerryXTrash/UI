@@ -395,7 +395,7 @@ function HawkLib:Window(Win)
 		Main.BorderColor3 = Color3.fromRGB(36, 36, 36)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
-		Main.Size = UDim2.new(0, 592, 0, 300)
+		Main.Size = UDim2.new(0, 592, 0, 328)
 
 		if OnPc or OnTabletLaptop then
 			Main.Position = HawkLib.Elements.WideMenu.MainPosition
