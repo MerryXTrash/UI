@@ -149,7 +149,7 @@ local HawkLib = {
 
 	Themes = {
 		Dark = {
-Main = Color3.fromRGB(25, 25, 25),
+Main = Color3.fromRGB(19, 19, 19),
 Shadow = Color3.fromRGB(0, 0, 0),
 TitleBar = Color3.fromRGB(31, 31, 31),
 TabBefore = Color3.fromRGB(33, 33, 33),
@@ -458,7 +458,7 @@ function HawkLib:Window(Win)
 
 		TitleBar.Name = "TitleBar"
 		TitleBar.Parent = Main
-		TitleBar.BackgroundTransparency = 0.06
+		TitleBar.BackgroundTransparency = 0.08
 		TitleBar.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderSizePixel = 0
