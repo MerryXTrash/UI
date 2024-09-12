@@ -1065,6 +1065,7 @@ function HawkLib:Window(Win)
 
 						Button.Name = "Button"
 						Button.Parent = Container
+						Button.BackgroundTransparency = 0.07
 						Button.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
 						Button.BorderColor3 = HawkLib.Themes[Theme].ItemColors
 						Button.BorderSizePixel = 0
