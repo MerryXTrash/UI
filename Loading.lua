@@ -391,7 +391,7 @@ function HawkLib:Window(Win)
 		Main.Name = "Main"
 		Main.Parent = Hawk
 		Main.BackgroundColor3 = HawkLib.Themes[Theme].Main
-		Main.BackgroundTransparency = 0.3
+		Main.BackgroundTransparency = 0.1
 		Main.BorderColor3 = Color3.fromRGB(36, 36, 36)
 		Main.BorderSizePixel = 0
 		Main.Position = UDim2.new(0.5, -296, 0.5, -164)
@@ -410,6 +410,7 @@ function HawkLib:Window(Win)
 
 		TitleBar.Name = "TitleBar"
 		TitleBar.Parent = Main
+		TitleBar.BackgroundTransparency = 0.1
 		TitleBar.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderSizePixel = 0
@@ -423,6 +424,7 @@ function HawkLib:Window(Win)
 		MakeDraggable(TitleBar, Main)
 		BarFixer.Name = "BarFixer"
 		BarFixer.Parent = TitleBar
+		BarFixer.BackgroundTransparency = 0.1
 		BarFixer.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
 		BarFixer.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		BarFixer.BorderSizePixel = 0
@@ -431,6 +433,7 @@ function HawkLib:Window(Win)
 		MakeDraggable(BarFixer, Main)
 		Line.Name = "Line"
 		Line.Parent = BarFixer
+		Line.BackgroundTransparency = 0.1
 		Line.BackgroundColor3 = HawkLib.Themes[Theme].TitleLineColor
 		Line.BorderColor3 = HawkLib.Themes[Theme].TitleLineColor
 		Line.BorderSizePixel = 0
@@ -461,7 +464,7 @@ function HawkLib:Window(Win)
 		Minimize.BackgroundTransparency = 1.000
 		Minimize.BorderColor3 = Color3.fromRGB(36, 36, 36)
 		Minimize.BorderSizePixel = 0
-		Minimize.Position = UDim2.new(0.891891897, 0, 0.25, 0)
+		Minimize.Position = UDim2.new(0.944256783, 0, 0.25, 0)
 		Minimize.Size = UDim2.new(0, 20, 0, 19)
 		Minimize.Font = Enum.Font.Merriweather
 		Minimize.Text = "-"
