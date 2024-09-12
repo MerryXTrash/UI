@@ -454,7 +454,7 @@ function HawkLib:Window(Win)
 
 		TitleBar.Name = "TitleBar"
 		TitleBar.Parent = Main
-		TitleBar.BackgroundTransparency = 0.1
+		TitleBar.BackgroundTransparency = 0.4
 		TitleBar.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		TitleBar.BorderSizePixel = 0
@@ -468,7 +468,7 @@ function HawkLib:Window(Win)
 		MakeDraggable(TitleBar, Main)
 		BarFixer.Name = "BarFixer"
 		BarFixer.Parent = TitleBar
-		BarFixer.BackgroundTransparency = 0.1
+		BarFixer.BackgroundTransparency = 0.4
 		BarFixer.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
 		BarFixer.BorderColor3 = HawkLib.Themes[Theme].TitleBar
 		BarFixer.BorderSizePixel = 0
@@ -477,7 +477,7 @@ function HawkLib:Window(Win)
 		MakeDraggable(BarFixer, Main)
 		Line.Name = "Line"
 		Line.Parent = BarFixer
-		Line.BackgroundTransparency = 0.1
+		Line.BackgroundTransparency = 0.4
 		Line.BackgroundColor3 = HawkLib.Themes[Theme].TitleLineColor
 		Line.BorderColor3 = HawkLib.Themes[Theme].TitleLineColor
 		Line.BorderSizePixel = 0
