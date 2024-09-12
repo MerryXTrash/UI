@@ -1085,7 +1085,7 @@ function HawkLib:Window(Win)
 						ClickIcon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 						ClickIcon.BorderSizePixel = 0
 						ClickIcon.Size = UDim2.new(0, 33, 0, 33)
-						ClickIcon.Image = "rbxassetid://85685514338772"
+						ClickIcon.Image = "rbxassetid://136664576983124"
 						ClickIcon.ImageColor3 = HawkLib.Themes[Theme].ButtonClickIconColor
 
 						Button.MouseEnter:Connect(
