@@ -57,10 +57,10 @@ ImageButton.ZIndex = 10  -- ตั้งค่า ZIndex ของปุ่ม�
 ImageButton.MouseButton1Down:Connect(function()
 for i, v in pairs(game.CoreGui.Hawk:GetChildren()) do
 if v.Name == "Main" then
-	if v.Enabled == true then
-		v.Enabled = false
+	if v.Visible == true then
+		v.Visible = false
 	    else
-		v.Enabled = true	
+		v.Visible = true	
 	    end
 	end 
     end
@@ -592,12 +592,12 @@ function HawkLib:Window(Win)
 		Shadow.SliceCenter = Rect.new(24, 24, 276, 276)
 
 		function HawkLib:ToggleUI()	
-			for i, v in pairs(game.CoreGui:GetChildren()) do
-				if v.Name == "Hawk" then
-					if v.Enabled == true then
-						v.Enabled = false
+			for i, v in pairs(game.CoreGui.Hawk:GetChildren()) do
+				if v.Name == "Main" then
+					if v.Visible == true then
+						v.Visible = false
 					else
-						v.Enabled = true	
+						v.Visible = true	
 					end
 				end
 			end
