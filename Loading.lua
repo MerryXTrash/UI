@@ -760,6 +760,7 @@ function HawkLib:Window(Win)
 
 			TabBtnFrame.Name = "TabBtnFrame"
 			TabBtnFrame.Parent = Tabs
+			TabBynFrame.BackgroundTransparency = 0.5
 			TabBtnFrame.BackgroundColor3 = HawkLib.Themes[Theme].TabBefore
 			TabBtnFrame.BorderColor3 = HawkLib.Themes[Theme].TabBefore
 			TabBtnFrame.BorderSizePixel = 0
@@ -1065,7 +1066,7 @@ function HawkLib:Window(Win)
 
 						Button.Name = "Button"
 						Button.Parent = Container
-						Button.BackgroundTransparency = 0.15
+						Button.BackgroundTransparency = 0.5
 						Button.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
 						Button.BorderColor3 = HawkLib.Themes[Theme].ItemColors
 						Button.BorderSizePixel = 0
@@ -5606,13 +5607,13 @@ function HawkLib:Window(Win)
 				Arrow.BackgroundTransparency = 1.000
 				Arrow.Position = UDim2.new(0.913561523, 0, 0.211111104, 0)
 				Arrow.Size = UDim2.new(0, 26, 0, 27)
-				Arrow.Image = "rbxassetid://6034818372"
+				Arrow.Image = "rbxassetid://120100637575914"
 				Arrow.ImageColor3 = HawkLib.Themes[Theme].ItemTitleColors
 
 				DropdownFrame.Name = "DropdownFrame"
 				DropdownFrame.Parent = Container
 				DropdownFrame.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
-				DropdownFrame.BackgroundTransparency = 0.2
+				DropdownFrame.BackgroundTransparency = 0.5
 				DropdownFrame.BorderSizePixel = 0
 				DropdownFrame.Position = UDim2.new(0.334374994, 0, 0.604166687, 0)
 				DropdownFrame.Size = UDim2.new(0, 391, 0, 0)
