@@ -2335,7 +2335,7 @@ function HawkLib:Window(Win)
 						done.Position = UDim2.new(0.0909090936, 0, 0.0909090936, 0)
 						done.Size = UDim2.new(0, 18, 0, 18)
 						done.ZIndex = 2
-						done.Image = "rbxassetid://115504189520877"
+						done.Image = "rbxassetid://73510649277351"
 						done.ImageRectOffset = Vector2.new(644, 204)
 						done.ImageRectSize = Vector2.new(36, 36)
 						done.ImageColor3 = HawkLib.Themes[Theme].ToggleTickColor
